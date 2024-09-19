@@ -50,6 +50,11 @@ gap%>%
 gap%>%
   arrange(lifeExp) %>% View()
 
+##to rename a variable use function rename()
+gap%>%
+  rename(life_exp = lifeExp) %>% View
+
+
 
 
 
